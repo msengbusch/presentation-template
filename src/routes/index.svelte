@@ -9,6 +9,6 @@
 </svelte:head>
 
 <Presentation>
-    <Barebone />
-    <Theme />
+  <Barebone />
+  <Theme />
 </Presentation>

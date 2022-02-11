@@ -6,19 +6,19 @@
 
   onMount(async () => {
     // Remember: If using multiple Presentation components multiple RevealStatic objects must be created
-    const reveal = (await import('reveal.js')).default
-    await reveal.initialize()
-  })
+    const reveal = (await import('reveal.js')).default;
+    await reveal.initialize();
+  });
 </script>
 
 <div class="reveal">
   <div class="slides">
-    <slot></slot>
+    <slot />
   </div>
 </div>
 
 <style>
-    .reveal {
-        position: absolute;
-    }
+  .reveal {
+    position: absolute;
+  }
 </style>

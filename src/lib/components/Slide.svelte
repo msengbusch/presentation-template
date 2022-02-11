@@ -1,3 +1,3 @@
 <section>
-  <slot></slot>
+  <slot />
 </section>
