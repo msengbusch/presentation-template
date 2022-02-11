@@ -28,5 +28,7 @@
     "typescript": "^4.4.3"
   },
   "type": "module",
-  "dependencies": {}
+  "dependencies": {
+    "reveal.js": "^4.2.1"
+  }
 }
